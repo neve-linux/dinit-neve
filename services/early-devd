@@ -1,0 +1,9 @@
+# run the early device manager; not supervised, meant to
+# be replaced with a supervised service later in the boot
+
+type = scripted
+command = @SCRIPT_PATH@/dev.sh start
+stop-command = @SCRIPT_PATH@/dev.sh stop
+depends-on: early-prepare.target
+depends-on: early-modules-early
+depends-on: early-tmpfiles-dev

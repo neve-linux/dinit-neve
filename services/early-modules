@@ -1,0 +1,5 @@
+# handle modules-load.d
+
+type = scripted
+command = @SCRIPT_PATH@/modules.sh
+depends-ms: early-modules-early

@@ -1,0 +1,5 @@
+# static kernel modules loaded before device manager
+
+type = scripted
+command = @SCRIPT_PATH@/modules-early.sh
+depends-on: early-prepare.target

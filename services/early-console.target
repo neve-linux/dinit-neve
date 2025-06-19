@@ -1,0 +1,5 @@
+type = scripted
+command = @SCRIPT_PATH@/console.sh
+depends-on: early-devices.target
+depends-on: early-fs-local.target
+depends-on: early-keyboard.target

@@ -1,0 +1,4 @@
+type = scripted
+command = @SCRIPT_PATH@/tmpfs.sh
+depends-on: early-kernel-env
+depends-on: early-pseudofs

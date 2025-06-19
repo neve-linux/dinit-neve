@@ -1,0 +1,4 @@
+type = scripted
+command = @SCRIPT_PATH@/fs-zfs.sh
+depends-on: early-fs-pre.target
+options: starts-on-console

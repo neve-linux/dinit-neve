@@ -1,0 +1,5 @@
+# trigger device events for already-present devices
+
+type = scripted
+command = @SCRIPT_PATH@/dev.sh trigger
+depends-on: early-devd

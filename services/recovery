@@ -1,0 +1,4 @@
+type = process
+command = @DINIT_SULOGIN_PATH@
+restart = false
+options: runs-on-console

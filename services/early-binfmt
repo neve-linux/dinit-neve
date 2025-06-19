@@ -1,0 +1,4 @@
+type = scripted
+command = @SCRIPT_PATH@/binfmt.sh start
+stop-command = @SCRIPT_PATH@/binfmt.sh stop
+depends-on: early-fs-local.target

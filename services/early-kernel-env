@@ -1,0 +1,4 @@
+type = scripted
+command = @SCRIPT_PATH@/kernel-env.sh
+depends-on: early-pseudofs
+options: pass-cs-fd

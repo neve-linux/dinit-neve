@@ -1,0 +1,4 @@
+# time should be synced before this is reached
+
+type = internal
+depends-on: local.target

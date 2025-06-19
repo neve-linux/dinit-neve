@@ -1,0 +1,5 @@
+# set console keyboard
+
+type = scripted
+command = @SCRIPT_PATH@/console.sh keyboard
+depends-on: early-devices.target
