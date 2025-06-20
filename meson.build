@@ -1,5 +1,5 @@
 project(
-    'dinit-chimera',
+    'dinit-neve',
     ['cpp'],
     version: '0.99.19',
     default_options: [
